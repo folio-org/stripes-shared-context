@@ -1,0 +1,20 @@
+{
+  "name": "@folio/stripes-shared-context",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "repository": "folio-org/stripes-shared-context",
+  "sideEffects": [
+    "*.css"
+  ],
+  "publishConfig": {
+    "registry": "https://repository.folio.org/repository/npm-folio/"
+  },
+  "scripts": {
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}

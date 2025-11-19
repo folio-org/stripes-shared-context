@@ -1,5 +1,5 @@
-import React from 'react';
+import { createContext } from 'react';
 
-const StripesContext = React.createContext();
+const StripesContext = createContext();
 
 export default StripesContext;

@@ -13,5 +13,6 @@ jobs:
       jest-enabled: false
       bigtest-enabled: false
       sonar-sources: ./src
+      compile-translations: false
       generate-module-descriptor: false
       publish-module-descriptor: false

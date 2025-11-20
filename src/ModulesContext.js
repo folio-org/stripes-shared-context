@@ -1,5 +1,10 @@
-import React from 'react';
+import { createContext, useContext } from 'react';
 
-const ModulesContext = React.createContext();
+export const modulesInitialValue = {
+  app: [],
+  handler: [],
+  plugin: [],
+  settings: [],
+};
 
-export default ModulesContext;
+export const ModulesContext = createContext(modulesInitialValue);
